@@ -67,6 +67,16 @@ class StopwatchViewController: UIViewController {
     @objc private func updateTime() {
         count += 1
         let timeCount = count / 10
+        
+        guard timeCount < 3600 else {
+            timer?.invalidate()
+            showAlert(title: "Attention!",
+                      message: "Time is over. The timer will be reseted") {
+                self.reset()
+            }
+            return
+        }
+        
         let time = splitSeconds(timeCount)
         let timeString = makeTimeString(minutes: time.0,
                                         seconds: time.1)
@@ -117,7 +127,7 @@ class StopwatchViewController: UIViewController {
     
     /// Разделяет секунды на минуты и секунды
     private func splitSeconds(_ seconds: Int) -> (Int, Int) {
-        return ((seconds % 3600) / 60, (seconds % 3600) % 60)
+        return (seconds / 60, seconds % 60)
     }
     
     /// Создает строку времени для отображения

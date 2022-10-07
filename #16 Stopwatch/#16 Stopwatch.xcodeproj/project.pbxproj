@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D642CED28F0BB8600C0A746 /* UIViewController + Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D642CEC28F0BB8600C0A746 /* UIViewController + Alert.swift */; };
 		7DCC922128F0056D006B767C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCC922028F0056D006B767C /* AppDelegate.swift */; };
 		7DCC922328F0056D006B767C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCC922228F0056D006B767C /* SceneDelegate.swift */; };
 		7DCC922528F0056D006B767C /* StopwatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCC922428F0056D006B767C /* StopwatchViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7D642CEC28F0BB8600C0A746 /* UIViewController + Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + Alert.swift"; sourceTree = "<group>"; };
 		7DCC921D28F0056D006B767C /* #16 Stopwatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "#16 Stopwatch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DCC922028F0056D006B767C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7DCC922228F0056D006B767C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				7DCC922228F0056D006B767C /* SceneDelegate.swift */,
 				7DCC922428F0056D006B767C /* StopwatchViewController.swift */,
 				7DCC923428F06108006B767C /* PaddingLabel.swift */,
+				7D642CEC28F0BB8600C0A746 /* UIViewController + Alert.swift */,
 				7DCC922628F0056D006B767C /* Main.storyboard */,
 				7DCC922928F0056F006B767C /* Assets.xcassets */,
 				7DCC922B28F0056F006B767C /* LaunchScreen.storyboard */,
@@ -145,6 +148,7 @@
 				7DCC922528F0056D006B767C /* StopwatchViewController.swift in Sources */,
 				7DCC922128F0056D006B767C /* AppDelegate.swift in Sources */,
 				7DCC922328F0056D006B767C /* SceneDelegate.swift in Sources */,
+				7D642CED28F0BB8600C0A746 /* UIViewController + Alert.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
