@@ -56,7 +56,7 @@ class StopwatchViewController: UIViewController {
                        name: Notification.Name("StartStopTimer"),
                        object: nil)
     }
-    
+
     /// Останавливает Timer при переходе в фоновый
     @objc private func startStopTimer() {
         guard isLaunched else { return }
@@ -133,11 +133,7 @@ class StopwatchViewController: UIViewController {
     /// Создает строку времени для отображения
     private func makeTimeString(minutes: Int,
                                 seconds: Int) -> String {
-        var timeString = ""
-        timeString += String(format: "%02d", minutes)
-        timeString += ":"
-        timeString += String(format: "%02d", seconds)
-        return timeString
+        return String(format: "%02d:%02d", minutes, seconds)
     }
 }
 
