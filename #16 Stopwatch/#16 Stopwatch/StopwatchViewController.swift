@@ -86,25 +86,30 @@ class StopwatchViewController: UIViewController {
     /// Запускает Timer
     private func start() {
         guard isLaunched else { return }
-        timer = Timer.scheduledTimer(
-            timeInterval: 0.1,
-            target: self,
-            selector: #selector(updateTime),
-            userInfo: nil,
-            repeats: true)
-        
+       
+        if timer == nil {
+            let timer = Timer.scheduledTimer(
+                timeInterval: 0.1,
+                target: self,
+                selector: #selector(updateTime),
+                userInfo: nil,
+                repeats: true)
+            RunLoop.current.add(timer, forMode: .common)
+            
+            self.timer = timer
+        }
         setState(true)
     }
     
     /// Останавливает Timer
     private func stop() {
         timer?.invalidate()
+        timer = nil
         setState(false)
     }
     
     /// Сбрасывает Timer на 0
     private func reset() {
-        timer?.invalidate()
         count = 0
         timeLabel.text = "00:00"
         setState(false)

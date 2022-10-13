@@ -51,7 +51,7 @@ func convertMulti(number: Int,
 }
 
 // Пример
-convertMulti(number: 178, conversionMethod: descendingOrder) {
+convertMulti(number: 1782, conversionMethod: descendingOrder) {
     print($0)
 }
 
@@ -79,6 +79,8 @@ func minimumPerimeter(_ areaString: String) -> Int? {
     }
     return width * 2 + area / width * 2
 }
+
+Result
 
 // Пример
 minimumPerimeter("Площадь-45*")
