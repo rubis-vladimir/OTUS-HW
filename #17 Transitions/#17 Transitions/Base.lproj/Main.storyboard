@@ -55,7 +55,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Canvas star screen" id="anU-Ud-3fW"/>
                     <connections>
-                        <outlet property="canvasStarsView" destination="p2Q-Oc-Ilp" id="hKY-a5-hdX"/>
+                        <outlet property="canvasStarsView" destination="p2Q-Oc-Ilp" id="eJg-tp-ptm"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c6h-Vv-nWR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

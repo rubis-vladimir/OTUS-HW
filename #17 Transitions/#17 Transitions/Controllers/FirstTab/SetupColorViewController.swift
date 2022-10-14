@@ -7,7 +7,7 @@
 
 import UIKit
 
-class SetupColorViewController: UIViewController {
+final class SetupColorViewController: UIViewController {
     
     // MARK: - Properties & IBOutlets
     var gradient: Gradient?
