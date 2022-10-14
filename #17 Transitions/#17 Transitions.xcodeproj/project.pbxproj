@@ -82,13 +82,14 @@
 		7D642CF928F1605D00C0A746 /* #17 Transitions */ = {
 			isa = PBXGroup;
 			children = (
-				7DCC3A0828F87695008638F6 /* Supporting Files */,
 				7D642D1E28F727BD00C0A746 /* Extension */,
 				7D642D1828F6E07500C0A746 /* Controllers */,
 				7DD19F9628F809E800A4EDAA /* Model */,
 				7D642D0028F1605D00C0A746 /* Main.storyboard */,
 				7D642D0328F1605F00C0A746 /* Assets.xcassets */,
 				7D642D0528F1605F00C0A746 /* LaunchScreen.storyboard */,
+				7D642CFA28F1605D00C0A746 /* AppDelegate.swift */,
+				7D642CFC28F1605D00C0A746 /* SceneDelegate.swift */,
 				7D642D0828F1605F00C0A746 /* Info.plist */,
 			);
 			path = "#17 Transitions";
@@ -141,15 +142,6 @@
 				7DCC3A0628F8715D008638F6 /* CanvasView.swift */,
 			);
 			path = Views;
-			sourceTree = "<group>";
-		};
-		7DCC3A0828F87695008638F6 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				7D642CFA28F1605D00C0A746 /* AppDelegate.swift */,
-				7D642CFC28F1605D00C0A746 /* SceneDelegate.swift */,
-			);
-			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		7DD19F9628F809E800A4EDAA /* Model */ = {
