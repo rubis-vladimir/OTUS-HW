@@ -28,7 +28,7 @@ final class PaletteViewController: UIViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        
+        setupElements()
         print(moduleTitle + Log.didAppear.rawValue)
     }
     

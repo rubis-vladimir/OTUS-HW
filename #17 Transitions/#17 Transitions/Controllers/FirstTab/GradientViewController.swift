@@ -7,7 +7,7 @@
 
 import UIKit
 
-class GradientViewController: UIViewController {
+final class GradientViewController: UIViewController {
     
     //MARK: - Properties & IBOutlets
     private let defaultColor = UIColor(red: 241/255, green: 240/255, blue: 236/255, alpha: 1)
