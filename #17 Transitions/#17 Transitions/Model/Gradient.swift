@@ -13,7 +13,8 @@ struct Gradient {
     var thirdColor: UIColor?
     var fourthColor: UIColor?
     
-    
+    /// Получает слой градиента в зависимости
+    /// от количества установленных цветов
     func getGradientLayer() -> CAGradientLayer {
         let gradient = CAGradientLayer()
         gradient.type = .axial
@@ -22,8 +23,8 @@ struct Gradient {
             firstColor?.cgColor,
             secondColor?.cgColor,
             thirdColor?.cgColor,
-            fourthColor?.cgColor,
-        ].compactMap{$0}.filter { $0 != UIColor.clear.cgColor }
+            fourthColor?.cgColor
+        ].compactMap{$0}
         
         let startColor = UIColor(red: 241, green: 240, blue: 236, alpha: 1)
         gradient.colors = arrayColors.isEmpty ? [startColor.cgColor] : arrayColors
@@ -37,7 +38,14 @@ struct Gradient {
             gradient.locations = [0, 1]
         default: break
         }
-        
         return gradient
+    }
+    
+    /// Получает первый установленный цвет
+    func getOneColor() -> UIColor? {
+        return [firstColor,
+                secondColor,
+                thirdColor,
+                fourthColor].compactMap{$0}.first
     }
 }

@@ -7,58 +7,67 @@
 
 import UIKit
 
-
-
 class GradientViewController: UIViewController {
+    
+    //MARK: - Properties & IBOutlets
+    private let defaultColor = UIColor(red: 241/255, green: 240/255, blue: 236/255, alpha: 1)
+    private let moduleTitle = "GradientView"
     
     @IBOutlet weak var setupColorButton: UIButton!
     @IBOutlet weak var gradientView: UIView!
     
-    //    private lazy var gradient: CAGradientLayer = {
-    //        let gradient = CAGradientLayer()
-    //        gradient.type = .axial
-    //        gradient.colors = [
-    //            UIColor.red.cgColor,
-    //            UIColor.white.cgColor,
-    //            UIColor.cyan.cgColor
-    //        ]
-    //        gradient.locations = [0, 0.25, 1]
-    //        return gradient
-    //    }()
-    //
-    //
-    
-    
+    //MARK: - Override func
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        //        gradient.frame = view.bounds
-        //        gradientView.layer.addSublayer(gradient)
-        
-        setupColorButton.titleLabel?.textAlignment = .center
-        setupColorButton.layer.cornerRadius = 20
+        print(moduleTitle + Log.didLoad.rawValue)
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        print(moduleTitle + Log.willAppear.rawValue)
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        print(moduleTitle + Log.didAppear.rawValue)
+    }
+    
+    override func willMove(toParent parent: UIViewController?) {
+        if parent == nil {
+            print(moduleTitle + Log.destroy.rawValue)
+        }
+    }
+    
+    deinit {
+        print(moduleTitle + Log.deinitModule.rawValue)
+    }
+    
+    //MARK: - Navigation
+    /// Переход и передача данных через unwind
     @IBAction func unwind(_ segue: UIStoryboardSegue) {
         
         guard let setupVC = segue.source as? SetupColorViewController else { return }
-        guard let gradientLayer = setupVC.gradient?.getGradientLayer() else { return }
-        setupGradient(with: gradientLayer)
+        guard let gradient = setupVC.gradient else { return }
+        setupColorView(with: gradient)
     }
     
-    private func setupGradient(with layer: CAGradientLayer) {
-        
-        
+    //MARK: - Private func
+    /// Настраивает цвет вью в зависимости от установленных цветов в градиенте
+    private func setupColorView(with gradient: Gradient) {
+        let layer = gradient.getGradientLayer()
         guard let colors = layer.colors else { return }
+        
+        gradientView.layer.sublayers = nil
+        
         if colors.count > 1 {
             layer.frame = gradientView.bounds
             gradientView.layer.addSublayer(layer)
         } else {
-            
-            
+            if let color = gradient.getOneColor() {
+                gradientView.backgroundColor = color
+            } else {
+                gradientView.backgroundColor = defaultColor
+            }
         }
-        
     }
-    
-    
 }

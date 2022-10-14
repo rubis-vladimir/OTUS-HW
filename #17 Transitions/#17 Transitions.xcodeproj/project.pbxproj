@@ -7,36 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D581FF728F94CBD00DFE980 /* UIViewController + HelpAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D581FF628F94CBD00DFE980 /* UIViewController + HelpAlert.swift */; };
 		7D642CFB28F1605D00C0A746 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D642CFA28F1605D00C0A746 /* AppDelegate.swift */; };
 		7D642CFD28F1605D00C0A746 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D642CFC28F1605D00C0A746 /* SceneDelegate.swift */; };
-		7D642CFF28F1605D00C0A746 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D642CFE28F1605D00C0A746 /* ViewController.swift */; };
 		7D642D0228F1605D00C0A746 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D642D0028F1605D00C0A746 /* Main.storyboard */; };
 		7D642D0428F1605F00C0A746 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D642D0328F1605F00C0A746 /* Assets.xcassets */; };
 		7D642D0728F1605F00C0A746 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D642D0528F1605F00C0A746 /* LaunchScreen.storyboard */; };
-		7D642D0F28F1B6B300C0A746 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D642D0E28F1B6B300C0A746 /* CustomView.swift */; };
-		7D642D1128F6DEE900C0A746 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D642D1028F6DEE900C0A746 /* MainTabBarController.swift */; };
 		7D642D1328F6DF3F00C0A746 /* PaletteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D642D1228F6DF3F00C0A746 /* PaletteViewController.swift */; };
 		7D642D1528F6DFBA00C0A746 /* GradientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D642D1428F6DFBA00C0A746 /* GradientViewController.swift */; };
 		7D642D1728F6E06700C0A746 /* SetupColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D642D1628F6E06700C0A746 /* SetupColorViewController.swift */; };
 		7D642D1D28F6F55600C0A746 /* UIViewController + ColorAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D642D1C28F6F55500C0A746 /* UIViewController + ColorAlert.swift */; };
+		7DCC39FA28F857BF008638F6 /* CanvasStarsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCC39F928F857BE008638F6 /* CanvasStarsViewController.swift */; };
+		7DCC39FC28F857D5008638F6 /* SetupStarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCC39FB28F857D5008638F6 /* SetupStarViewController.swift */; };
+		7DCC39FE28F857EB008638F6 /* PreviewStarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCC39FD28F857EA008638F6 /* PreviewStarViewController.swift */; };
+		7DCC3A0128F863B7008638F6 /* StarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCC3A0028F863B7008638F6 /* StarView.swift */; };
+		7DCC3A0328F86C17008638F6 /* UIView + CustomStar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCC3A0228F86C17008638F6 /* UIView + CustomStar.swift */; };
+		7DCC3A0528F86D1E008638F6 /* Star.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCC3A0428F86D1E008638F6 /* Star.swift */; };
+		7DCC3A0728F8715D008638F6 /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCC3A0628F8715D008638F6 /* CanvasView.swift */; };
+		7DCC3A0A28F89A0F008638F6 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCC3A0928F89A0E008638F6 /* Log.swift */; };
 		7DD19F9828F80A0800A4EDAA /* Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD19F9728F80A0800A4EDAA /* Gradient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7D581FF628F94CBD00DFE980 /* UIViewController + HelpAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + HelpAlert.swift"; sourceTree = "<group>"; };
 		7D642CF728F1605D00C0A746 /* #17 Transitions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "#17 Transitions.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D642CFA28F1605D00C0A746 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7D642CFC28F1605D00C0A746 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7D642CFE28F1605D00C0A746 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7D642D0128F1605D00C0A746 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7D642D0328F1605F00C0A746 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D642D0628F1605F00C0A746 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7D642D0828F1605F00C0A746 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7D642D0E28F1B6B300C0A746 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
-		7D642D1028F6DEE900C0A746 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		7D642D1228F6DF3F00C0A746 /* PaletteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaletteViewController.swift; sourceTree = "<group>"; };
 		7D642D1428F6DFBA00C0A746 /* GradientViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientViewController.swift; sourceTree = "<group>"; };
 		7D642D1628F6E06700C0A746 /* SetupColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupColorViewController.swift; sourceTree = "<group>"; };
 		7D642D1C28F6F55500C0A746 /* UIViewController + ColorAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + ColorAlert.swift"; sourceTree = "<group>"; };
+		7DCC39F928F857BE008638F6 /* CanvasStarsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasStarsViewController.swift; sourceTree = "<group>"; };
+		7DCC39FB28F857D5008638F6 /* SetupStarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupStarViewController.swift; sourceTree = "<group>"; };
+		7DCC39FD28F857EA008638F6 /* PreviewStarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewStarViewController.swift; sourceTree = "<group>"; };
+		7DCC3A0028F863B7008638F6 /* StarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarView.swift; sourceTree = "<group>"; };
+		7DCC3A0228F86C17008638F6 /* UIView + CustomStar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + CustomStar.swift"; sourceTree = "<group>"; };
+		7DCC3A0428F86D1E008638F6 /* Star.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Star.swift; sourceTree = "<group>"; };
+		7DCC3A0628F8715D008638F6 /* CanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
+		7DCC3A0928F89A0E008638F6 /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
 		7DD19F9728F80A0800A4EDAA /* Gradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gradient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -70,10 +82,7 @@
 		7D642CF928F1605D00C0A746 /* #17 Transitions */ = {
 			isa = PBXGroup;
 			children = (
-				7D642CFA28F1605D00C0A746 /* AppDelegate.swift */,
-				7D642CFC28F1605D00C0A746 /* SceneDelegate.swift */,
-				7D642D0E28F1B6B300C0A746 /* CustomView.swift */,
-				7D642CFE28F1605D00C0A746 /* ViewController.swift */,
+				7DCC3A0828F87695008638F6 /* Supporting Files */,
 				7D642D1E28F727BD00C0A746 /* Extension */,
 				7D642D1828F6E07500C0A746 /* Controllers */,
 				7DD19F9628F809E800A4EDAA /* Model */,
@@ -88,19 +97,10 @@
 		7D642D1828F6E07500C0A746 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				7D642D1928F6E07E00C0A746 /* TabBar */,
 				7D642D1A28F6E08800C0A746 /* FirstTab */,
 				7D642D1B28F6E0BD00C0A746 /* SecondTab */,
 			);
 			path = Controllers;
-			sourceTree = "<group>";
-		};
-		7D642D1928F6E07E00C0A746 /* TabBar */ = {
-			isa = PBXGroup;
-			children = (
-				7D642D1028F6DEE900C0A746 /* MainTabBarController.swift */,
-			);
-			path = TabBar;
 			sourceTree = "<group>";
 		};
 		7D642D1A28F6E08800C0A746 /* FirstTab */ = {
@@ -116,6 +116,10 @@
 		7D642D1B28F6E0BD00C0A746 /* SecondTab */ = {
 			isa = PBXGroup;
 			children = (
+				7DCC39F928F857BE008638F6 /* CanvasStarsViewController.swift */,
+				7DCC39FB28F857D5008638F6 /* SetupStarViewController.swift */,
+				7DCC39FD28F857EA008638F6 /* PreviewStarViewController.swift */,
+				7DCC39FF28F863A1008638F6 /* Views */,
 			);
 			path = SecondTab;
 			sourceTree = "<group>";
@@ -124,14 +128,36 @@
 			isa = PBXGroup;
 			children = (
 				7D642D1C28F6F55500C0A746 /* UIViewController + ColorAlert.swift */,
+				7D581FF628F94CBD00DFE980 /* UIViewController + HelpAlert.swift */,
+				7DCC3A0228F86C17008638F6 /* UIView + CustomStar.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		7DCC39FF28F863A1008638F6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7DCC3A0028F863B7008638F6 /* StarView.swift */,
+				7DCC3A0628F8715D008638F6 /* CanvasView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7DCC3A0828F87695008638F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D642CFA28F1605D00C0A746 /* AppDelegate.swift */,
+				7D642CFC28F1605D00C0A746 /* SceneDelegate.swift */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		7DD19F9628F809E800A4EDAA /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				7DD19F9728F80A0800A4EDAA /* Gradient.swift */,
+				7DCC3A0428F86D1E008638F6 /* Star.swift */,
+				7DCC3A0928F89A0E008638F6 /* Log.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -207,16 +233,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D642CFF28F1605D00C0A746 /* ViewController.swift in Sources */,
 				7D642D1728F6E06700C0A746 /* SetupColorViewController.swift in Sources */,
 				7D642D1D28F6F55600C0A746 /* UIViewController + ColorAlert.swift in Sources */,
+				7DCC3A0A28F89A0F008638F6 /* Log.swift in Sources */,
+				7DCC39FA28F857BF008638F6 /* CanvasStarsViewController.swift in Sources */,
 				7D642D1328F6DF3F00C0A746 /* PaletteViewController.swift in Sources */,
-				7D642D0F28F1B6B300C0A746 /* CustomView.swift in Sources */,
 				7DD19F9828F80A0800A4EDAA /* Gradient.swift in Sources */,
-				7D642D1128F6DEE900C0A746 /* MainTabBarController.swift in Sources */,
 				7D642CFB28F1605D00C0A746 /* AppDelegate.swift in Sources */,
+				7DCC39FE28F857EB008638F6 /* PreviewStarViewController.swift in Sources */,
 				7D642D1528F6DFBA00C0A746 /* GradientViewController.swift in Sources */,
+				7DCC39FC28F857D5008638F6 /* SetupStarViewController.swift in Sources */,
+				7DCC3A0128F863B7008638F6 /* StarView.swift in Sources */,
 				7D642CFD28F1605D00C0A746 /* SceneDelegate.swift in Sources */,
+				7DCC3A0328F86C17008638F6 /* UIView + CustomStar.swift in Sources */,
+				7DCC3A0528F86D1E008638F6 /* Star.swift in Sources */,
+				7D581FF728F94CBD00DFE980 /* UIViewController + HelpAlert.swift in Sources */,
+				7DCC3A0728F8715D008638F6 /* CanvasView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

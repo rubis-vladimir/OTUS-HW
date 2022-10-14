@@ -9,6 +9,10 @@ import UIKit
 
 extension UIViewController {
     
+    /// Показывает алерт для настройки цвета
+    ///  - Parameters:
+    ///   - color: уже установленный цвет
+    ///   - completion: захвать обновленного цвета
     func showColorAlert(color: UIColor,
                         completion: @escaping (UIColor) -> ()) {
         let ciColor = CIColor(color: color)
